@@ -4,9 +4,13 @@
 // 782 -> 8
 // 918 -> 1
 
-Console.WriteLine("Введите трехзначное число  ");
-Console.WriteLine("x: ");
-int x = Convert.ToInt32(Console.ReadLine());
-int x1 = x % 100;
-int x2 = x1 / 10;
-Console.WriteLine (" " + x2);
+void ShowSecond()
+{
+    Console.WriteLine("Введите трехзначное число  ");
+    Console.WriteLine("x: ");
+    int x = Convert.ToInt32(Console.ReadLine());
+    int x1 = x % 100;
+    int x2 = x1 / 10;
+    Console.WriteLine (" " + x2);
+}
+ShowSecond();
